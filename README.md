@@ -1,5 +1,5 @@
 <strong>FATEC_Engenharia_Soft_PI</strong>
-<br>Atividades realizadas pelo Grupo 4 do PI de Desenvolvimento de Software e Multiplataforma 
+<br>Tarefa realizada pelo grupo de PI 
 #
 Integrantes do Grupo: 
 <br>Beatriz Machado de Oliveira
