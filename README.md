@@ -2,7 +2,7 @@
 Projeto Integrador do 1º semestre da FATEC Araras | Tema: Educação de qualidade
 
 # Objetivos do Projeto 
-O objetivo principal deste projeto é fornecer orientação e educação alimentar para crianças. Reconhecemos a crescente relevância desse assunto e a importância de prevenir a obesidade infantil e outras doenças relacionadas à má alimentação. Por isso, criamos uma plataforma de pesquisa que visa facilitar e agilizar o acesso a informações sobre uma alimentação saudável.
+O objetivo principal deste projeto é fornecer orientação aos pais sobre a educação alimentar das crianças. Reconhecemos a crescente relevância desse assunto e a importância de prevenir a obesidade infantil e outras doenças relacionadas à má alimentação. Por isso, criamos uma plataforma de pesquisa que visa facilitar e agilizar o acesso a informações sobre uma alimentação saudável.
 
 
 ## 🚀 Tecnologias utilizadas
