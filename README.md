@@ -19,4 +19,13 @@ src="https://www.svgrepo.com/show/312259/github.svg"/>
 
 
 
-## 📃 Documentos
+## 📃 Documents
+	🚀 Em desenvolvimento... 
+
+## Integrantes do Projeto
+- [Beatriz Machado de Oliveira](https://github.com/beamclive)
+- [Elisangela Cristina Bernardo Belatini](https://github.com/elisangelabelatini)
+- [Fernando Claudiano da Silva](https://github.com/fernandoclaudianosilva)
+- [João Augusto Selegatto Pacolla](https://github.com/JPacolla376)
+- [Maria Vitória Suzarth](https://github.com/mvitoriasuz)
+- [Miguel Fernandes do Espírito Santo](https://github.com/miguelfernandeses)
