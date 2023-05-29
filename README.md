@@ -1,11 +1,11 @@
 # NutriKids 🍊
 Projeto Integrador do 1º semestre da FATEC Araras | Tema: Educação de qualidade
 
-# Objetivos do Projeto 
+# Objetivo 
 O objetivo principal deste projeto é fornecer orientação aos pais sobre a educação alimentar das crianças. Reconhecemos a crescente relevância desse assunto e a importância de prevenir a obesidade infantil e outras doenças relacionadas à má alimentação. Por isso, criamos uma plataforma de pesquisa que visa facilitar e agilizar o acesso a informações sobre uma alimentação saudável.
 
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 Esse projeto foi desenvolvido com as seguintes ferramentas:
 
@@ -19,7 +19,7 @@ src="https://www.svgrepo.com/show/312259/github.svg"/>
 
 
 
-## 📃 Documents
+## Documentos
 	🚀 Em desenvolvimento... 
 
 ## Integrantes do Projeto
