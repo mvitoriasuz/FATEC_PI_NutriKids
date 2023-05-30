@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* Layout
+-----------------------------*/
+
+.btn-verde {
+    background-color: white;
+    color: #3dcc1d;
+    font-weight: 500;
+}
+
+.btn-verde:hover {
+    color: white;
+    font-weight: 500;
+    background:#3dcc1d;
+    border: 2px solid #3dcc1d;
+}
+
+.imag-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#informacoes {
+    margin-top: 75px;
+}
+
+#dicas {
+    margin-top: 75px;
+}
+
+#informacoes .card {
+    margin: 50px auto;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+#sobre {
+    margin-top: 17px;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+#perguntas {
+    margin-top: 75px;
+}
+
+#perguntas .card-header {
+    background-color: white; 
+    padding: 25px;
+    text-align: justify;
+    border-bottom: 1px solid  #979996a6;
+}
+
+#perguntas button {
+    white-space: normal; 
+    color: #296502; 
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+.perguntas {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.perguntas h5 {
+    text-align: center;
+    color:#63c720f8;
+}
+
+#depoimentos {
+    margin-top: 75px;
+}
+
+.depoimentos {
+    margin: 20px 5px;
+    color: rgb(255, 255, 255);
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.253), 0 2px 8px 0 rgba(0, 0, 0, 0.171), 0 1px 5px 0 rgba(0, 0, 0, 0.055);
+}
+
+.depoimentos-text {
+    color: white;
+}
+
+.depoimentos .card-header {
+    background-color: rgb(241, 149, 10);
+}
+
+.depoimentos .card-body {
+    background-color: rgba(241, 149, 10, 0.89);
+}
+
+#mensagem {
+    margin-top: 75px;
+}
+
+#mensagem .card {
+    padding: 30px 15px;
+}
+
+#mensagem .btn-verde {
+    margin-top: 6px;
+}
+
+#mensagem span {
+    font-size: 15px;
+    color: #acacac;
+}
+
+#imc .card {
+    margin: auto;
+    padding: 60px;
+    border: 3px solid rgb(255, 174, 0);
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+#imc .card input {
+    border: 1px solid #acacac;;
+    border-radius: 7px;
+    width: 200px;
+    height: 35px;
+}
+
+#imc .card button {
+    margin-top: 20px;
+}
+
+#imc .card span {
+    color: #63c720f8;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+/* Barra de navegação
+-----------------------------*/
+
+nav {
+    background-color: white;
+    padding: 15px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.607);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#3dcc1d;
+}
+
+.navbar-light .nav-toggler {
+    color: rgba (0, 0, 0, 0.5);
+    border-color: rgba (255, 255, 255, 0);
+}
+
+.bi-color {
+    color: #3dcc1d;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* Tabela 
+-----------------------------*/
+table {
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+th {
+    color: #63c720f8; 
+    background-color: white;
+}
+
+tbody {
+    background-color: rgb(255, 255, 255);
+}
+
+table tr {
+    border: 2px solid white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé
+-----------------------------*/
+
+footer {
+    background: #f9fbf8a8;
+    padding: 35px;
+    margin-top: 35px;
+    position: relative;
+    font-family:'Roboto', sans-serif; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .7), 0 2px 8px 0 rgba(0, 0, 0, .5), 0 1px 5px 0 rgba(0, 0, 0, .1);
+}
+
+footer h4 {
+    color: #296502;
+    font-size: 20px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+}
+
+footer h4:hover {
+    color:  #3dcc1d;
+}
+
+footer .navbar-nav i{
+    text-align: justify;
+}
+
+footer .navbar-nav a{
+    color: #1e1919be;
+    font-weight: 25px;
+    font-size: 14px;
+}
+
+footer .navbar-nav a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 20px;
+    padding-top: 10px;
+}
+
+footer ul li img {
+    float: right;
+}
+
+footer p span {
+    color: #acacac; 
+}
+
+.social-media {
+    display: inline-block;     
+}
+
+.social-media i {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    margin: 10px 3px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    background-color: #296502;
+    border-radius: 50%;
+    color: white;
+}
+.social-media i:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    margin: 65px 20px;
+}
+
+
+
+
+
+
+
+
+/* Tipografia
+-----------------------------*/
+h2 {
+    font-size: 31px;
+    text-align: center;
+    margin: 25px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #373737;
+    font-size: 17px;
+    margin: 0px, 269px, 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p span {
+    color: #3dcc1d; 
+}
+
+
+
+
+
+
+
+
+
+/* Dispositivos
+-----------------------------*/
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) { 
+    #fundo {
+        margin-top: 20px;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+
+    #informacoes .card {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    footer ul {
+        padding-bottom: 27px;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    #fundo {
+        margin-top: 20px;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+
+    #informacoes .card {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    footer ul {
+        padding-bottom: 27px;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .btn-custom {
+        margin: 15px 20px;
+        font-size: 2em;
+    }
+ }
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .btn-custom {
+        margin: 15px 20px;
+        font-size: 2em;
+    }
+ }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { 
+    .btn-custom {
+        margin: 20px 20px;
+        font-size: 2em;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
