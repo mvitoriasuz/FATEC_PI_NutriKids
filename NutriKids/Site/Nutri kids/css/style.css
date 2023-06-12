@@ -25,6 +25,16 @@
     
 }
 
+.imag-geral {
+    width: 70%;
+    margin: 30px 150px;
+}
+
+ul li {
+    margin: 8px;
+}
+
+/* informações */
 #informacoes {
     margin-top: 75px;
 }
@@ -41,6 +51,7 @@
     margin-top: 15px;
 }
 
+/* sobre nós */
 #sobre {
     margin-top: 17px;
 }
@@ -49,6 +60,7 @@
     text-align: justify;
 }
 
+/* perguntas */
 #perguntas {
     margin-top: 75px;
 }
@@ -78,6 +90,7 @@
     color:#63c720f8;
 }
 
+/* depoimentos */
 #depoimentos {
     margin-top: 75px;
 }
@@ -102,6 +115,7 @@
     background-color: rgba(241, 149, 10, 0.89);
 }
 
+/* mensagem*/ 
 #mensagem {
     margin-top: 75px;
 }
@@ -119,6 +133,7 @@
     color: #acacac;
 }
 
+/* imc */
 #imc .card {
     margin: auto;
     padding: 60px;
@@ -146,6 +161,24 @@
     margin: 10px;
 }
 
+/* alimentos prejudiciais */
+#prejudiciais h3 {
+    color: #63c720f8;
+    text-align: left;
+}
+
+/* alimentos saudaveis */
+.list {
+    margin: 45px auto;
+    
+}
+
+
+
+
+
+
+
 
 
 
@@ -172,6 +205,14 @@ nav {
 .bi-color {
     color: #3dcc1d;
 } 
+
+.bi-person-circle {
+    color: #a5a1a1be;
+}
+
+.bi-person-circle:hover {
+    color:#3dcc1d;
+}
 
 
 
@@ -363,6 +404,16 @@ p span {
     footer ul {
         padding-bottom: 27px;
     }
+
+    #prejudiciais img {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .imag-geral {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -391,6 +442,10 @@ p span {
 
     footer ul {
         padding-bottom: 27px;
+    }
+    #prejudiciais img {
+        width: 100%;
+        margin: 30px auto;
     }
 }
 

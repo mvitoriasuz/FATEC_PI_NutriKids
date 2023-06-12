@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Lato:wght@400;700;900&display=swap"
-  rel="stylesheet">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- Bootstrap Icon -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <!-- Estilo customizado -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- ICONE -->
-  <link rel="icon" href="./img/icon.png">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Lato:wght@400;700;900&display=swap"
+rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- Bootstrap Icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<!-- Estilo customizado -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- ICONE -->
+<link rel="icon" href="./img/icon.png">
 
-  <title>Nutri Kids - Educação Nutricional</title>
+<title>Nutri Kids - Educação Nutricional</title>
 
 </head>
-<body>
+<body>  
 
 <!-- Navbar -->
 <header>
   <nav class="navbar navbar-expand-md navbar-light fixed-top">
     <div class="container">
-      <a href="index.html"><img src="./img/NutriKids.png" alt="Logotipo" width="280"></a>
+      <a href="index.html"><img src="./img/logotipo.png" alt="Logotipo" width="280"></a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal"> <!--botão da navbar no small-->
           <i class="bi bi-list bi-color"></i>
@@ -48,15 +48,19 @@
           <li class="nav-item ml-3">
             <a href="#depoimentos" class="nav-link">Depoimentos</a>
           </li>
+          <li class="nav-item ml-3">
+            <a href="login.html" class="nav-link"><i class="bi bi-person-circle"></i></a>
+          </li>
         </ul> 
       </div>   
     </div>
+    
   </nav>
 </header>
 
-<!-- futuro carrossel-->
-<div class="container imag-container" id="fundo">
-  <img src="./img/familia.jpg" class="w-100">
+<!-- fundo -->
+<div class="container" id="fundo-index">
+  <img src="./img/familia.jpg" class=" imag-container w-100">
 </div>
 
 <!-- Informações e dicas -->
@@ -99,18 +103,18 @@
       <div class="card col-md-4">
         <img src="./img/saudavel.jpg" class="card-img-top d-flex" alt="Introdução alientar saudável">
         <div class="card-body">
-          <h5>Alimentação saudável</h5>
+          <h5>Reeducação alimentar</h5>
           <p> Clique em "Saiba mais" para obter as dicas sobre a reeducação alimentar das crianças. </p>
-          <a href="#" class="btn btn-verde"> - Saiba mais</a>
+          <a href="reeducacao.html" class="btn btn-verde"> - Saiba mais</a>
         </div>
       </div>
   
       <div class="card col-md-4">
         <img src="./img/legumes.jpg" class="card-img-top d-flex" alt="Dicas de alimentação">
         <div class="card-body">
-          <h5>Dicas alimentares</h5>
+          <h5>Alimentação saudável</h5>
           <p> Clique em "Saiba mais" para visualizar as dicas sobre os melhores alimentos de rico nutrientes para as crianças.</p>
-          <a href="#" class="btn btn-verde"> - Saiba mais</a>
+          <a href="alimentos saudaveis.html" class="btn btn-verde"> - Saiba mais</a>
         </div>
       </div>
     </div>
@@ -129,7 +133,7 @@
         <h2>SOBRE NÓS</h2>
         <p>"Nosso objetivo é fornecer orientações claras e práticas sobre como promover uma alimentação saudável para crianças de maneira fácil e rápida. Reconhecemos a importância de pais, cuidadores e profissionais de saúde terem acesso a recursos confiáveis e acessíveis para obter informações sobre escolhas alimentares saudáveis e estratégias eficazes para incentivar hábitos alimentares positivos nas crianças."</p>
         <p>"Entendemos que a educação alimentar é um processo contínuo, e estamos aqui para oferecer apoio e esclarecer dúvidas que possam surgir ao longo do caminho. Nosso objetivo é capacitar os pais, cuidadores e profissionais de saúde a tomarem decisões informadas em relação à alimentação das crianças, ajudando-as a desenvolver hábitos alimentares saudáveis ​​que podem perdurar por toda a vida."</p>
-        <p><span>- Equipe Nutri kids.</span></p>
+        <p><span>- Equipe Nutri Kids.</span></p>
       </div>   
     </div>
   </div>
@@ -232,7 +236,7 @@
             </h5>
           </div>
           <div class="card-body">
-            <p class="depoimentos-text">"Graças às dicas consegui criar uma base de educação alimentar para o meu filho, que ao mesmo tempo seja divertida e não prejudicial a saúde!."</p>
+            <p class="depoimentos-text">"Graças às dicas consegui criar uma base de educação alimentar para o meu filho, que ao mesmo tempo seja divertida e não prejudicial à saúde!"</p>
           </div>
         </div>
       </div>
@@ -245,7 +249,7 @@
             </h5>
           </div>
           <div class="card-body">
-            <p class="depoimentos-text">"Graças às dicas consegui criar uma base de educação alimentar para o meu filho, que ao mesmo tempo seja divertida e não prejudicial a saúde!."</p>
+            <p class="depoimentos-text">"As dicas são tão boas, que todos da familia passaram a seguir! Recomendo muito. Indico para todos os conhecidos, minhas amigas irão amar implementar para seus filhos."</p>
           </div>
         </div>
       </div>
@@ -253,12 +257,12 @@
       <div class="col-sm-12 col-md-6 mb-3">
         <div class="card depoimentos">
           <div class="card-header">
-            <h5 class="card-title"> Fernando Claudiano da Silva 
+            <h5 class="card-title"> Maria Vitória Suzarth  
               <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"> </i>
             </h5>
           </div>
           <div class="card-body">
-            <p class="depoimentos-text">"Graças às dicas consegui criar uma base de educação alimentar para o meu filho, que ao mesmo tempo seja divertida e não prejudicial a saúde!."</p>
+            <p class="depoimentos-text">"Comecei a seguir as orientações de introdução alimentar em casa e foi maravilhoso. Pude observar que meu filho está mais saúdavel."</p>
           </div>
         </div>
       </div>
@@ -271,7 +275,7 @@
             </h5>
           </div>
           <div class="card-body">
-            <p class="depoimentos-text">"Graças às dicas consegui criar uma base de educação alimentar para o meu filho, que ao mesmo tempo seja divertida e não prejudicial a saúde!."</p>
+            <p class="depoimentos-text">"Tive um problema com o meu filho quanto ao vício em chocolate e não sabia como ajudar. Graças às orientações do nutricionista, consegui reeducar sua alimentação."</p>
           </div>
         </div>
       </div>
