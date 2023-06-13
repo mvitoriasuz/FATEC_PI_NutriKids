@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     background: no-repeat url(../img/portal.jpeg);
+    background-size: 100%; 
 }
 
 .container {
@@ -180,6 +181,9 @@ body {
     }
     .form {
         width: 100%;
+    }
+    body {
+        background-size: 100%; 
     }
 }
 
