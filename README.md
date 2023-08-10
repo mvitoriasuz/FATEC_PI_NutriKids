@@ -20,7 +20,8 @@ src="https://www.svgrepo.com/show/312259/github.svg"/>
 
 
 ## Documentos
-	🚀 Em desenvolvimento... 
+[Documentação]([https://github.com/Lifer18/Fatec_Projeto_Integrador_Segundo_Semestre/files/9955960/Documentacao_PI_2.docx](https://github.com/mvitoriasuz/FATEC_PI_NutriKids/blob/main/NutriKids/Especifica%C3%A7%C3%A3o%20dos%20Requisitos%20do%20Software/Especifica%C3%A7%C3%A3o%20de%20Requisitos%20de%20Software_v6.pdf))
+
 
 ## Integrantes do Projeto
 - [Beatriz Machado de Oliveira](https://github.com/beamclive)
